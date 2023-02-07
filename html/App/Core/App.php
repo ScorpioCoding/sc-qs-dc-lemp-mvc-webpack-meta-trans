@@ -17,7 +17,7 @@ class App
 
   private static function setConfig()
   {
-    (new DotEnv(PATH_ENV . '.env-database'))->load();
+    (new DotEnv(PATH_ENV . 'database.env'))->load();
     (new SetDb());
   }
 

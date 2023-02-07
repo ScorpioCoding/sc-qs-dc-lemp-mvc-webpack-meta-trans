@@ -5,7 +5,7 @@ namespace App\Controllers\Site;
 use App\Core\Controller;
 use App\Core\View;
 use App\Core\Translation;
-
+use App\Utils\Site\Meta;
 
 /**
  *  Home
@@ -20,7 +20,7 @@ class Home extends Controller
   {
     //MetaData
     $meta = array();
-    //$meta = (new Meta($args))->getMeta();
+    $meta = (new Meta($args))->getMeta();
     // Translation
     $trans = array();
     $trans = Translation::translate($args);

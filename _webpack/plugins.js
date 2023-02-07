@@ -63,7 +63,7 @@ const CopyPlugin = new _CopyPlugin({
 
 // const BrowserSyncPlugin = new _BrowserSyncPlugin(
 //   {
-//     host: "localhost",
+//     host: "localhost",ù
 //     port: 9085,
 //     proxy: "http://127.0.0.1:9580",
 //     files: [
