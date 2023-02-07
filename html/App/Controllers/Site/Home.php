@@ -5,7 +5,7 @@ namespace App\Controllers\Site;
 use App\Core\Controller;
 use App\Core\View;
 use App\Core\Translation;
-use App\Utils\Site\Meta;
+use App\Utils\Meta;
 
 /**
  *  Home

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Utils\Site;
+namespace App\Utils;
 
 use App\Core\DotEnv;
 

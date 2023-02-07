@@ -11,8 +11,14 @@ module.exports = {
       path.resolve(__dirname, "../dev/js/main.js"),
       path.resolve(__dirname, "../dev/scss/main.scss"),
       path.resolve(__dirname, "../dev/views/Template.phtml"),
+      path.resolve(__dirname, "../dev/views/layout/header.phtml"),
+      path.resolve(__dirname, "../dev/views/layout/footer.phtml"),
+      path.resolve(__dirname, "../dev/views/layout/navigation.phtml"),
+    ],
+
+    site: [
       path.resolve(__dirname, "../dev/views/site/home.phtml"),
-      path.resolve(__dirname, "../dev/views/layouts/header.phtml"),
+      path.resolve(__dirname, "../dev/views/site/test.phtml"),
     ],
   },
 

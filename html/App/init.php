@@ -8,6 +8,7 @@ define("PATH_ENV", PATH_ROOT . ".env" . DS);
 define("PATH_APP", PATH_ROOT . "App" . DS);
 define("PATH_ROUTES", PATH_APP . "Routes" . DS);
 define("PATH_VIEWS", PATH_APP . "Views" . DS);
+define("PATH_TRANS", PATH_APP . "Translations" . DS);
 
 // autoloading classes
 spl_autoload_register(function ($class) {
